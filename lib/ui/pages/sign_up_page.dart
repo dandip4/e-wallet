@@ -3,12 +3,12 @@ import 'package:bank_sha/ui/widgets/buttons.dart';
 import 'package:bank_sha/ui/widgets/forms.dart';
 import 'package:flutter/material.dart';
 
-class SignInPage extends StatelessWidget {
-  const SignInPage({super.key});
+class SignUpPage extends StatelessWidget {
+  const SignUpPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+     return Scaffold(
       backgroundColor: lightBackgroundColor,
       body: ListView(
         padding: const EdgeInsets.symmetric(
@@ -85,7 +85,7 @@ class SignInPage extends StatelessWidget {
             height: 50,
           ),
           CustomTextWidget(
-            title: 'Forget Password',
+            title: 'Create New Account',
             onPressed: () {},
           ),
         ],
