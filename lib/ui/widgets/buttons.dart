@@ -40,13 +40,13 @@ class CustomFilledButton extends StatelessWidget {
   }
 }
 
-class CustomTextWidget extends StatelessWidget {
+class CustomTextButton extends StatelessWidget {
   final String title;
   final double width;
   final double height;
   final VoidCallback? onPressed;
 
-  const CustomTextWidget({
+  const CustomTextButton({
     Key? key,
     required this.title,
     this.width = double.infinity,
@@ -60,7 +60,7 @@ class CustomTextWidget extends StatelessWidget {
       width: width,
       height: height,
       child: TextButton(
-        onPressed: () {},
+        onPressed: onPressed,
         style: TextButton.styleFrom(
           padding: EdgeInsets.zero,
         ),
